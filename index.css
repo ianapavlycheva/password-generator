@@ -1,3 +1,55 @@
 body {
   margin: 0;
+  background-color: #1f2937;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-family: "Karla", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: -0.4px;
+  color: white;
+  margin: 115px 0 0 50px;
+}
+
+div {
+  color: #4adf86;
+}
+
+p {
+  color: #d5d4d8;
+  font-size: 20px;
+  margin: 10px 0 0 50px;
+}
+
+button {
+  color: white;
+  font-size: 16px;
+  background-color: #10b981;
+  padding: 10px 12px;
+  border-radius: 6px;
+  margin: 50px 0 0 50px;
+  border: none;
+  /* width: 200px;
+  height: 40px; */
+}
+
+.line {
+  width: 450px;
+  height: 2px;
+  background-color: #2f3e53;
+  margin: 35px 0 0 50px;
+}
+
+textarea {
+  background-color: #273549;
+  margin: 35px 0 0 50px;
+  color: #55f991;
+  border: none;
+  border-radius: 6px;
+  pointer-events: none;
+  user-select: none;
+  resize: none;
+  width: 195px;
 }
