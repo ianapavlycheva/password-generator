@@ -48,7 +48,8 @@ button:hover {
 
 textarea {
   background-color: #273549;
-  margin: 35px 0 0 50px;
+
+  font-size: 16px;
   color: #55f991;
   border: none;
   border-radius: 6px;
@@ -56,4 +57,9 @@ textarea {
   user-select: none;
   resize: none;
   width: 195px;
+  height: 40px;
+  padding: 10px 0;
+  margin: 35px 0 0 50px;
+  text-align: center;
+  box-sizing: border-box;
 }
